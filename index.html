@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>eBay Motors VIN Grabber by Jacob Fischer</title>
+        <link rel=stylesheet href="style.css" type="text/css" media=screen>
+        <!--
+
+        /*-----------------------------------*\
+        |  By: Jacob Fischer                  |
+        |  Date: 9/13/11                      |
+        |  Email: jacob.t.fischer@gmail.com   |
+        |  Web: http://jacobfischer.me/       |
+        \*-----------------------------------*/
+
+        -->
+    </head>
+    <body>
+        <div id="main">
+            <h1>eBay Motors VIN Grabber</h1>
+            <h2>By <a href="http://jacobfischer.me/">Jacob Fischer</a></h2>
+            <img src="logo.png" class="logo" />
+            <p><strong>Instructions:</strong> Fill out (or leave blank) the following fields then click go. Traditionally it will take (n * 5) seconds to generate all the VINs, where n is the number of hundreds of VINs you want.</p>
+            <hr />
+            <form action="build-table.php" method="GET">
+                <label for="hundreds">Results times 100 to return: </label>
+                <input type="text" name="hundreds" id="hundreds" value="1" />
+                <br />
+                <label for="years">Specific year: </label>
+                <input type="text" name="years" id="years" />
+                <br />
+                <label for="keywords">Keywords: </label>
+                <input type="text" name="keywords" id="keywords" />
+                <br />
+                <button type="submit">GO!</button>
+            </form>
+            <p><em>To Excel:</em> You can Select the tabel and Drag and Drop in into Excell (it may take time to format), or save the page that is generated in some folder, and open in .htm page in excel. It will format it faster that way. You may want to select all the cells in Excel and chaneg the Row Height to something like 75 though, as well as play around with formatting.</p>
+        </div>
+    </body>
+</html>

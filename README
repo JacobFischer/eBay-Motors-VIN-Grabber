@@ -1,0 +1,15 @@
+/*-----------------------------------*\
+|  By: Jacob Fischer                  |
+|  Date: 9/13/11                      |
+|  Email: jacob.t.fischer@gmail.com   |
+|  Web: http://jacobfischer.me/       |
+\*-----------------------------------*/
+
+This will generate a table of VINs, gotten from eBay Motors. You can change settings to narrow down what you want.
+
+HOW TO:
+1) copy these files into a folder
+2) make sure you are on a Linux server with PHP5 and Apache installed, and the files are in some folder that you can access
+3) navigate to your server (normally 'localhost' or '127.0.0.1' in ther server's web browser
+4) change options, click "GO!", and wait a few seconds
+5) PROFIT!

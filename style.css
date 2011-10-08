@@ -1,0 +1,106 @@
+/*-----------------------------------*\
+|  By: Jacob Fischer                  |
+|  Date: 9/13/11                      |
+|  Email: jacob.t.fischer@gmail.com   |
+|  Web: http://jacobfischer.me/       |
+\*-----------------------------------*/
+
+@import url(http://fonts.googleapis.com/css?family=Arimo);
+
+* {
+    font-family: 'Arimo', helvetica, arial, sans-serif;
+    color: #282424;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #F97083;
+}
+
+a {
+    color: #B62E40;
+    text-decoration: underline;
+    padding: 2px 2px;
+    margin: -2px -2px;
+    border-radius: 3px;
+}
+
+a:hover, a:focus, a:active {
+    background-color: #B62E40;
+    color: #f9f7f7;
+}
+
+html, body {
+    background: #F30021;
+    text-align: center;
+}
+
+div#main {
+    margin: 0 auto;
+    text-align: left;
+    width: 1200px;
+    background: #f9f7f7;
+    padding: 1em;
+    border: 2px solid #9E0016;
+    border-radius: 10px;
+}
+
+label {
+    display: block;
+    margin-top: 0.25em;
+}
+
+input {
+    width: 160px;
+    border: 2px solid #B62E40;
+    color: #010404;
+    border-radius: 3px;
+    display: block;
+}
+
+input:hover, input:focus, input:active {
+    border: 2px solid #F93E58;border-radius: 3px;
+}
+
+button {
+    background: #B62E40;
+    color: #f9f7f7;
+    border: 2px solid #9E0016;
+    border-radius: 3px;
+    font-size: 2.5em;
+}
+
+button:hover, button:active, button:focus {
+    background: #F93E58;
+}
+
+table {
+    border: 2px solid #9E0016;
+    border-radius: 9px;
+    border-collapse:collapse;
+}
+
+tr, th {
+    border: 2px solid #9E0016;
+}
+
+td {
+    padding: 2px;
+}
+
+td.center {
+    text-align: center;
+    font-weight: bold;
+}
+
+img.logo {
+    width: 50%;
+    height: auto;
+}
+
+hr
+{
+    border: 0.0625em #9E0016 solid;
+}
+
+
